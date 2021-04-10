@@ -1,0 +1,17 @@
+{
+    "name": "stan/composer",
+    "description": "Projet quete composer",
+    "authors": [
+        {
+            "name": "stan67",
+            "email": "stanislas67@outlook.fr"
+        }
+    ],
+    "require": {},
+    
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

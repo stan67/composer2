@@ -2,5 +2,10 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$zach = new App\Wcs\Hello();
+use App\Wcs\Hello;
+
+$zach = new Hello();
 echo $zach->talk();
+
+use HelloWorld\SayHello;
+echo '<br>' . SayHello::world();
